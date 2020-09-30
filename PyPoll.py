@@ -43,13 +43,14 @@ with open(file_to_load) as election_data:
         # add vote to candidate's count
         candidate_votes[candidate_name] += 1
 
+# Save results to text file
 with open(file_to_save, "w") as txt_file:
     # Print the final vote count to terminal
     election_results = (
-    f"\nElection Results\n"
-    f"-------------------------------\n"
-    f"Total Votes: {total_votes:,}\n"
-    f"-------------------------------\n")
+        f"\nElection Results\n"
+        f"-------------------------------\n"
+        f"Total Votes: {total_votes:,}\n"
+        f"-------------------------------\n")
     print(election_results, end="")
     
     # Save final vote count to text file
@@ -61,29 +62,26 @@ with open(file_to_save, "w") as txt_file:
         vote_ptc = float (votes) / float(total_votes) * 100
 
         #Print each candidate name, vote ptc, and votes
-        # print(f"{candidate_name}: {vote_ptc:.1f}% ({votes:,})\n")       
-
+        candidate_results = (f"{candidate_name}: {vote_ptc:.1f}% ({votes:,})\n")       
+        print(candidate_results)
+        # Save candidate results to text file
+        txt_file.write(candidate_results)
         #Determine winning vote count, ptc, and candidate
         if (votes > winning_count) and (vote_ptc > winning_ptc):
             winning_count = votes
             winning_ptc = vote_ptc
             winning_candidate = candidate_name
             
-#Print winning candidate results    
-winning_candidate_summary = (
-f"----------------------------------\n"  
-f"Winner: {winning_candidate}\n"
-f"Winning Vote Count: {winning_count:,}\n"
-f"Winning Vote Percentage: {winning_ptc:.1f}%\n"
-f"----------------------------------\n") 
-        
-# print(winning_candidate_summary)
-
-# Open the save 
-# txt_file = open(file_to_save, "w") 
+            #Print winning candidate results    
+    winning_candidate_summary = (
+        f"----------------------------------\n"  
+        f"Winner: {winning_candidate}\n"
+        f"Winning Vote Count: {winning_count:,}\n"
+        f"Winning Vote Percentage: {winning_ptc:.1f}%\n"
+        f"----------------------------------\n") 
+    print(winning_candidate_summary)
+    # Save winning summary to text file
+    txt_file.write(winning_candidate_summary) 
     
-# Write some data to the file
-# txt_file.write ("Arapahoe\nDenver\nJefferson")
+    
 
-# Close the file
-election_data.close()

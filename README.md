@@ -5,10 +5,10 @@ The Colorado Board of Elections employee has requested an audit of a recent loca
 
 Tasks to complete:
 
-1. Calculate the total number of votes
+1. Total number of votes
 2. Complete list of candidates who recieved votes
-3. Calculate the total number of votes each candidate recieved
-4. Calculate the percentage of votes for each candidate
+3. Total number of votes each candidate recieved
+4. Percentage of votes for each candidate
 5. Determine the winner of the election based on popular vote
 
 ## Resources
@@ -29,6 +29,11 @@ Election analysis shows:
 - The winner of the election was Diana DeGette with 73.8% of the total with a 272,892 vote count
 
 ## Challenge Overview
+
+A csv file of the votes was provided and inspected with Excel.   
+Pseudocode written to provide high level roadmap to achieve project objectives.
+
+ 
 
 ## Challenge Summary
   

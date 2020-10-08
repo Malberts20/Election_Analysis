@@ -9,12 +9,11 @@ The Colorado Board of Elections employee has requested an audit of a recent loca
 4. Percentage of votes for each candidate
 5. Determine the winner of the election based on popular vote
 
-Module challenge focused on incorporating analysis by county into existing Python code (PyPoll
+Module challenge focused on incorporating analysis by county into existing Python code (PyPoll_Challenge.py)
 
 Analysis results were posted to Spyder terminal output as well as written to Election_Analysis text file (see below for snapshots).
 
-Resources - Data Source : election_results.csv
-Software: Python 3.8; Spyder 4.1.5
+Resources - Data Source : election_results.csv; Software: Python 3.8; Spyder 4.1.5
 
 ## Election Audit Results
 Election analysis shows:
@@ -38,6 +37,12 @@ Reference above results below from Spyder terminal (left inage) and from Electio
 ![image](https://user-images.githubusercontent.com/71353552/95522344-186e8d80-0989-11eb-9ef1-0cd420eaf2cc.png)
 
 ## Election Audit Summary
+
+The election winner was Diana Degette with 73.8% of the vote; Denver had the largest county turnout with 82.8% of the vote.
+
+This code can be utilized for future elections as candidates and counties are created from input file.  
+
+Code modifications could be made to provide a more comprehensive review of Candidate results by County or conversly to evaluate the County perfomance by candidate.
   
   
 

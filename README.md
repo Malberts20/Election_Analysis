@@ -31,7 +31,7 @@ Election analysis shows:
   - Raymon Anthony Doane received 11,606 votes or 3.1% of the total
 - The winner of the election was Diana DeGette with 73.8% of the total with a 272,892 vote count
 
-Reference above results below from Spyder terminal (left inage) and from Election_Analysis.txt file (right image):
+Reference results below from Spyder terminal (left inage) and from Election_Analysis.txt file (right image):
 
 ![image](https://user-images.githubusercontent.com/71353552/95522325-0b519e80-0989-11eb-9cf6-3838f2c53b1c.png)
 ![image](https://user-images.githubusercontent.com/71353552/95522344-186e8d80-0989-11eb-9ef1-0cd420eaf2cc.png)
@@ -42,7 +42,7 @@ The election winner was Diana Degette with 73.8% of the vote; Denver had the lar
 
 This code can be utilized for future elections as candidates and counties are created from input file.  
 
-Code modifications could be made to provide a more comprehensive review of Candidate results by County or conversly to evaluate the County perfomance by candidate.
+Python code modifications could be made to provide a more comprehensive review of Candidate results by County or conversly to evaluate the County perfomance by candidate.
   
   
 

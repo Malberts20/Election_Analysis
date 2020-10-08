@@ -9,7 +9,7 @@ The Colorado Board of Elections employee has requested an audit of a recent loca
 4. Percentage of votes for each candidate
 5. Determine the winner of the election based on popular vote
 
-Module challenge focused on incorporating county analysis.
+Module challenge focused on incorporating analysis by county into existing Python code (PyPoll
 
 Analysis results were posted to Spyder terminal output as well as written to Election_Analysis text file (see below for snapshots).
 

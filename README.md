@@ -1,6 +1,6 @@
 # Election_Analysis
 
-## Project Overview
+## Overview of the Election Audit - Explain the purpose of this election audit analysis
 The Colorado Board of Elections employee has requested an audit of a recent local congressional election.
 
 Tasks to complete:
@@ -11,11 +11,11 @@ Tasks to complete:
 4. Percentage of votes for each candidate
 5. Determine the winner of the election based on popular vote
 
-## Resources
+Resources
 Data Source : election_results.csv
 Software: Python 3.8; Spyder 4.1.5
 
-## Summary
+## Election Audit Results
 Election analysis shows:
 - There were 369,711 votes cast in the election
 - The candidates were:
@@ -28,14 +28,14 @@ Election analysis shows:
   - Raymon Anthony Doane received 11,606 votes or 3.1% of the total
 - The winner of the election was Diana DeGette with 73.8% of the total with a 272,892 vote count
 
-## Challenge Overview
+
 
 A csv file of the votes was provided and inspected with Excel.   
 Pseudocode written to provide high level roadmap to achieve project objectives.
 
  
 
-## Challenge Summary
+## Election Audit Summary
   
   
 
